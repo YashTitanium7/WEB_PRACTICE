@@ -1,8 +1,16 @@
-.max-width1 {
+.max-width90 {
+  max-width: 90vw;
+}
+
+.max-width80 {
   max-width: 80vw;
 }
 
-.max-width2 {
+.max-width70 {
+  max-width: 70vw;
+}
+
+.max-width60 {
   max-width: 60vw;
 }
 

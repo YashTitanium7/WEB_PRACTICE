@@ -1,0 +1,30 @@
+@media (max-width: 768px) {
+  #searchBox {
+    width: 20vw;
+  }
+  .navigation {
+    flex-direction: column;
+  }
+  .left-nav {
+    flex-direction: column;
+  }
+  .logo {
+    margin: 1rem;
+  }
+  .menu ul {
+    margin-bottom: 2rem;
+  }
+  .content-left {
+    flex-direction: column-reverse;
+  }
+  .content-right {
+    flex-direction: column;
+  }
+  .content-text {
+    text-align: center;
+  }
+  .content .content-text h3,
+  .content .content-text p {
+    text-align: justify;
+  }
+}

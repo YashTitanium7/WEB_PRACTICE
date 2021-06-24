@@ -1,35 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Practice</title>
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/utils.css">
-</head>
-<body>
-  <nav class="navigation max-width1">
-    <div class="left-nav">
-      <div class="logo">titanium.</div>
-      <div class="menu">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Team</a></li>
-        </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - Titanium blog</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/utils.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+  </head>
+  <body>
+    <!-- navbar starts here -->
+    <nav class="navigation max-width80">
+      <div class="left-nav">
+        <div class="logo">titanium.blog</div>
+        <div class="menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="right-nav">
+        <input
+          type="text"
+          name="search"
+          id="searchBox"
+          placeholder="Search this website"
+        />
+      </div>
+    </nav>
+    <!-- navbar ends here -->
+    <!-- content starts here -->
+    <div class="content content-left max-width60">
+      <div class="content-left content-text">
+        <h3>This is a blog post</h3>
+        <p>
+          I think it's good to practice anything practically. Because practice
+          makes man perfect. I don't know what I am writing.
+        </p>
+      </div>
+      <div class="image-right content-img">
+        <img src="./images/Background 25.svg" alt="some graphics" />
       </div>
     </div>
-    <div class="right-nav">
-      <input type="text" name="search" id="searchBox" placeholder="Search this website">
+    <div class="content content-right max-width60">
+      <div class="image-left content-img">
+        <img
+          src="https://static.vecteezy.com/system/resources/previews/000/550/205/non_2x/vector-abstract-vibrant-gradient-color-3d-fluid-shape-on-white-background-color-liquid-form-movement.jpg"
+          alt="some graphics"
+        />
+      </div>
+      <div class="content-right content-text">
+        <h3>This is a blog post</h3>
+        <p>
+          I think it's good to practice anything practically. Because practice
+          makes man perfect. I don't know what I am writing.
+        </p>
+      </div>
     </div>
-  </nav>
-  <div class="content max-width1 m-auto">
-
-  </div>
-  <div class="footer max-width2 m-auto">
-
-  </div>
-  <script src="./js/index.js"></script>
-</body>
+    <div class="content content-left max-width60">
+      <div class="content-left content-text">
+        <h3>This is a blog post</h3>
+        <p>
+          I think it's good to practice anything practically. Because practice
+          makes man perfect. I don't know what I am writing.
+        </p>
+      </div>
+      <div class="image-right content-img">
+        <img
+          src="https://static.vecteezy.com/system/resources/previews/002/166/326/non_2x/green-fluid-background-free-vector.jpg"
+          alt="some graphics"
+        />
+      </div>
+    </div>
+    <!-- content ends here -->
+    <!-- news letter subscription starts here -->
+    <div class="newsletter">
+      <h5>SUBCRIBE NEWSLETTER</h5>
+      <h2>Check this out!</h2>
+      <p class="newsletter-para">
+        Subscribe to our news letter to get notified with blogs based on your
+        intrestes. So simple!
+      </p>
+      <div class="newsletter-email">
+        <input type="email" placeholder="Enter your e-mail..." />
+        <button>SUBSCRIBE NOW</button>
+      </div>
+    </div>
+    <!-- news letter subscription ends here -->
+    <div class="footer max-width60 m-auto"></div>
+    <script src="./js/index.js"></script>
+  </body>
 </html>

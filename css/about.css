@@ -1,0 +1,25 @@
+.about-us {
+  /* background-color: hotpink; */
+  margin: 2rem auto 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-us h1{
+  font-family: var(--oswald);
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+
+.about-us h2{
+  font-family: var(--raleway);
+  font-size: 2rem;
+  line-height: 3.5rem;
+  text-align: justify;
+}
+
+.about-us img {
+  margin: 5rem;
+  height: 30rem;
+}
+
